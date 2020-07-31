@@ -1,0 +1,142 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no">
+  <title>Survey Form</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-sm-2">
+
+    </div>
+    <div id="prez-container" class="col-sm-8">
+      <div id="title-container">
+        <h1 id="title">FASHION INDUSTRY IMPACT</h1>
+      </div>
+      <div id="description-container">
+        <p id="description">Everyday, more and more people become aware that fashion industry is one of the most
+          polluting in the world, and that need to change. Here, you can learn some clue ideas and answer a little form
+          to discover the impact of your clothes on the people and the planet.</p>
+      </div>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-sm-2">
+    </div>
+    <div id="general-container" class="col-sm-8 form shadow-lg p-3 mb-5 bg-white">
+      <form id="form-container">
+        <div id="questions-container">
+          <h3 class="font-weight-bold mb-3">DID YOU KNOW THAT...</h3>
+          <div class="image">
+            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115543/Survey%20Form/one_drqs2t.svg"
+                 class="rounded mx-auto d-block" alt="water consumption image">
+          </div>
+          <p class="mdb-color-text">Over 100 billion clothes are sold around the world every year.</p>
+          <div class="form-group left">
+            <div class="form-check form-check-inline white">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">YES</label>
+            </div>
+            <div class="form-check form-check-inline white">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">NO</label>
+            </div>
+          </div>
+          <div class="image">
+            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/two_jnyqac.svg"
+                 class="rounded mx-auto d-block" alt="water consumption image">
+          </div>
+          <p class="mdb-color-text">Fashion industry creates more than 1.2 billion tonnes of greenhouse gases each year.
+            Its impact is greater than international flights and maritime traffic combined.</p>
+          <div class="form-group right">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">No</label>
+            </div>
+          </div>
+          <div class="image">
+            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/three_vh74im.svg"
+                 class="rounded mx-auto d-block" alt="water consumption image">
+          </div>
+          <p class="mdb-color-text">When caring for our synthetic clothing
+            by machine, it is estimated that 500,000 tonnes of plastic micro particles are released into the ocean each
+            year, the equivalent of more than 50 billion plastic bottles.</p>
+          <div class="form-group left">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">No</label>
+            </div>
+          </div>
+          <div class="image">
+            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/four_j7l9fi.svg"
+                 class="rounded mx-auto d-block" alt="water consumption image">
+          </div>
+          <p class="mdb-color-text">Making a t-shirt requires the equivalent of 70 showers and 285 showers for a
+            jean.</p>
+          <div class="form-group right">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">No</label>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <h3 class="font-weight-bold mb-3">PERSONAL INFORMATION</h3>
+        <div class="form-group">
+          <label for="inlineFormInputName">Name</label>
+          <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="InputEmail">Email address</label>
+          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                 placeholder="jane@doe.com">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
