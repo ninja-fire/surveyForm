@@ -25,7 +25,7 @@
       <div id="title-container">
         <h1 id="title">FASHION INDUSTRY IMPACT</h1>
       </div>
-      <div id="description-container">
+      <div>
         <p id="description">Everyday, more and more people become aware that fashion industry is one of the most
           polluting in the world, and that need to change. Here, you can learn some clue ideas and answer a little form
           to discover the impact of your clothes on the people and the planet.</p>
@@ -39,23 +39,22 @@
     <div class="col-sm-2">
     </div>
     <div id="general-container" class="col-sm-8 form shadow-lg p-3 mb-5 bg-white">
-      <form id="form-container">
+      <form id="survey-form">
         <div id="questions-container">
           <h3 class="font-weight-bold mb-3">DID YOU KNOW THAT...</h3>
           <div class="image mx-auto">
-            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115543/Survey%20Form/one_drqs2t.svg"
-                 class="rounded mx-auto d-block" alt="water consumption image">
+            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115543/Survey%20Form/one_drqs2t.svg" alt="water consumption image">
           </div>
-          <p class="mdb-color-text">Over 100 billion clothes are sold around the world every year. the production of
+          <p>Over 100 billion clothes are sold around the world every year. the production of
             clothing collections has doubled since 2000.</p>
           <div class="form-group">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">Yes</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">No</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">No</label>
             </div>
           </div>
           <hr>
@@ -63,16 +62,16 @@
             <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/two_jnyqac.svg"
                  class="rounded mx-auto d-block" alt="water consumption image">
           </div>
-          <p class="mdb-color-text">Fashion industry creates more than 1.2 billion tonnes of greenhouse gases each year.
+          <p>Fashion industry creates more than 1.2 billion tonnes of greenhouse gases each year.
             Its impact is greater than international flights and maritime traffic combined.</p>
           <div class="form-group">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
-              <label class="form-check-label" for="inlineCheckbox3">Yes</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1">
+              <label class="form-check-label" for="inlineRadio3">Yes</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
-              <label class="form-check-label" for="inlineCheckbox4">No</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
+              <label class="form-check-label" for="inlineRadio4">No</label>
             </div>
           </div>
           <hr>
@@ -80,17 +79,17 @@
             <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/three_vh74im.svg"
                  class="rounded mx-auto d-block" alt="water consumption image">
           </div>
-          <p class="mdb-color-text">When caring for our synthetic clothing
+          <p>When caring for our synthetic clothing
             by machine, it is estimated that 500,000 tonnes of plastic micro particles are released into the ocean each
             year, the equivalent of more than 50 billion plastic bottles.</p>
           <div class="form-group">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
-              <label class="form-check-label" for="inlineCheckbox5">Yes</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option1">
+              <label class="form-check-label" for="inlineRadio5">Yes</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option2">
-              <label class="form-check-label" for="inlineCheckbox6">No</label>
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option2">
+              <label class="form-check-label" for="inlineRadio6">No</label>
             </div>
           </div>
           <hr>
@@ -98,8 +97,7 @@
             <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/four_j7l9fi.svg"
                  class="rounded mx-auto d-block" alt="water consumption image">
           </div>
-          <p class="mdb-color-text">Making a t-shirt requires the equivalent of 70 showers and 285 showers for a
-            jean.</p>
+          <p>Making a t-shirt requires the equivalent of 70 showers and 285 showers for a jean.</p>
           <div class="form-group">
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1">
@@ -116,11 +114,11 @@
         <div id="calcul-impact">
           <h3 class="font-weight-bold mb-3">CALCULATE YOUR IMPACT</h3>
           <br>
-          <div class="row">
-            <div class="col-sm align-self-center">
+          <div class="form-row align-items-center">
+            <div class="col-sm-6">
               <div class="form-group">
-                <label for="choseFiber">Select your fiber</label>
-                <select class="form-control" id="choseFiber">
+                <label class="sr-only" for="dropdown">Fiber</label>
+                <select class="form-control" id="dropdown">
                   <option>Select your fiber</option>
                   <option>Coton</option>
                   <option>Organic Coton</option>
@@ -134,9 +132,30 @@
                   <option>Polyamide</option>
                 </select>
               </div>
+            </div>
+            <div class="col-sm-4">
               <div class="form-group">
-                <label for="choseTransFib">Transport to spinning place</label>
-                <select class="form-control" id="choseTransFib">
+                <label id="number-label" class="sr-only" for="number">Quantity</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">kg</div>
+                  </div>
+                  <input type="number" class="form-control" id="number" placeholder="Quantity"  min="1" max="10">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <button type="submit" class="btn btn-outline-dark btn-block">Add</button>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="form-row align-items-center">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="sr-only" for="choseTransport">Transport</label>
+                <select class="form-control" id="choseTransport">
                   <option>Select your transport</option>
                   <option>Truck</option>
                   <option>Train</option>
@@ -144,35 +163,74 @@
                 </select>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm align-self-center">
+            <div class="col-sm-4">
               <div class="form-group">
-                <label for="chooseTransFib2">Transport to spinning place</label>
-                <select class="form-control" id="chooseTransFib2">
-                  <option>Truck</option>
-                  <option>Train</option>
-                  <option>Plane</option>
-                </select>
+                <label class="sr-only" for="Distance">Distance</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">km</div>
+                  </div>
+                  <input type="number" class="form-control" id="Distance" placeholder="Distance">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <button type="submit" class="btn btn-outline-dark btn-block">Add</button>
               </div>
             </div>
           </div>
+          <hr>
+          <div class="form-row align-items-center">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="sr-only" for="choseTechnique">Technique</label>
+                <select class="form-control" id="choseTechnique">
+                  <option>Select your technique</option>
+                  <option>Weaving</option>
+                  <option>Knitting</option>
+                  <option>Non-Woven</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="sr-only" for="Technique">Quantity</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">kg</div>
+                  </div>
+                  <input type="number" class="form-control" id="Technique" placeholder="Quantity">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="form-group">
+                <button type="submit" class="btn btn-outline-dark btn-block">Add</button>
+              </div>
+            </div>
+          </div>
+          <hr>
         </div>
         <br>
         <br>
         <div id="personal-info">
           <h3 class="font-weight-bold mb-3">PERSONAL INFORMATION</h3>
           <div class="form-group">
-            <label for="inlineFormInputName">Name</label>
-            <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Jane Doe" required>
           </div>
           <div class="form-group">
-            <label for="InputEmail">Email address</label>
-            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
-                   placeholder="jane@doe.com">
+            <label id="email-label" for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                   placeholder="jane@doe.com" required>
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
-          <button type="submit" class="btn btn-dark btn-lg btn-block">Submit</button>
+          <div class="form-group">
+            <label for="textArea">Let us know your opinion!</label>
+            <textarea class="form-control" id="textArea" rows="3"></textarea>
+          </div>
+          <button id="submit" type="submit" class="btn btn-dark btn-lg btn-block">Submit</button>
         </div>
       </form>
     </div>
