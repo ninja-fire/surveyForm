@@ -42,28 +42,13 @@
       <form id="form-container">
         <div id="questions-container">
           <h3 class="font-weight-bold mb-3">DID YOU KNOW THAT...</h3>
-          <div class="image">
+          <div class="image mx-auto">
             <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115543/Survey%20Form/one_drqs2t.svg"
                  class="rounded mx-auto d-block" alt="water consumption image">
           </div>
-          <p class="mdb-color-text">Over 100 billion clothes are sold around the world every year.</p>
-          <div class="form-group left">
-            <div class="form-check form-check-inline white">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">YES</label>
-            </div>
-            <div class="form-check form-check-inline white">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">NO</label>
-            </div>
-          </div>
-          <div class="image">
-            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/two_jnyqac.svg"
-                 class="rounded mx-auto d-block" alt="water consumption image">
-          </div>
-          <p class="mdb-color-text">Fashion industry creates more than 1.2 billion tonnes of greenhouse gases each year.
-            Its impact is greater than international flights and maritime traffic combined.</p>
-          <div class="form-group right">
+          <p class="mdb-color-text">Over 100 billion clothes are sold around the world every year. the production of
+            clothing collections has doubled since 2000.</p>
+          <div class="form-group">
             <div class="form-check form-check-inline">
               <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
               <label class="form-check-label" for="inlineCheckbox1">Yes</label>
@@ -73,41 +58,107 @@
               <label class="form-check-label" for="inlineCheckbox2">No</label>
             </div>
           </div>
-          <div class="image">
+          <hr>
+          <div class="image mx-auto">
+            <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/two_jnyqac.svg"
+                 class="rounded mx-auto d-block" alt="water consumption image">
+          </div>
+          <p class="mdb-color-text">Fashion industry creates more than 1.2 billion tonnes of greenhouse gases each year.
+            Its impact is greater than international flights and maritime traffic combined.</p>
+          <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
+              <label class="form-check-label" for="inlineCheckbox3">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
+              <label class="form-check-label" for="inlineCheckbox4">No</label>
+            </div>
+          </div>
+          <hr>
+          <div class="image mx-auto">
             <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/three_vh74im.svg"
                  class="rounded mx-auto d-block" alt="water consumption image">
           </div>
           <p class="mdb-color-text">When caring for our synthetic clothing
             by machine, it is estimated that 500,000 tonnes of plastic micro particles are released into the ocean each
             year, the equivalent of more than 50 billion plastic bottles.</p>
-          <div class="form-group left">
+          <div class="form-group">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+              <label class="form-check-label" for="inlineCheckbox5">Yes</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">No</label>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option2">
+              <label class="form-check-label" for="inlineCheckbox6">No</label>
             </div>
           </div>
-          <div class="image">
+          <hr>
+          <div class="image mx-auto">
             <img src="https://res.cloudinary.com/ninjafire/image/upload/v1596115995/Survey%20Form/four_j7l9fi.svg"
                  class="rounded mx-auto d-block" alt="water consumption image">
           </div>
           <p class="mdb-color-text">Making a t-shirt requires the equivalent of 70 showers and 285 showers for a
             jean.</p>
-          <div class="form-group right">
+          <div class="form-group">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option1">
+              <label class="form-check-label" for="inlineCheckbox7">Yes</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">No</label>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="option2">
+              <label class="form-check-label" for="inlineCheckbox8">No</label>
             </div>
           </div>
         </div>
-
+        <br>
+        <br>
+        <div id="calcul-impact">
+          <h3 class="font-weight-bold mb-3">CALCULATE YOUR IMPACT</h3>
+          <br>
+          <div class="row">
+            <div class="col-sm align-self-center">
+              <div class="form-group">
+                <label for="choseFiber">Select your fiber</label>
+                <select class="form-control" id="choseFiber">
+                  <option>Select your fiber</option>
+                  <option>Coton</option>
+                  <option>Organic Coton</option>
+                  <option>Linen</option>
+                  <option>Silk</option>
+                  <option>Wool</option>
+                  <option>Polyester</option>
+                  <option>Viscose</option>
+                  <option>Angora</option>
+                  <option>Hemp</option>
+                  <option>Polyamide</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="choseTransFib">Transport to spinning place</label>
+                <select class="form-control" id="choseTransFib">
+                  <option>Select your transport</option>
+                  <option>Truck</option>
+                  <option>Train</option>
+                  <option>Plane</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm align-self-center">
+              <div class="form-group">
+                <label for="chooseTransFib2">Transport to spinning place</label>
+                <select class="form-control" id="chooseTransFib2">
+                  <option>Truck</option>
+                  <option>Train</option>
+                  <option>Plane</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
         <br>
         <div id="personal-info">
           <h3 class="font-weight-bold mb-3">PERSONAL INFORMATION</h3>
@@ -126,7 +177,6 @@
       </form>
     </div>
     <div class="col-sm-2">
-
     </div>
   </div>
 </div>

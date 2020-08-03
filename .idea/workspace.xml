@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11750927-ed84-48de-b946-44926a4691ec" name="Default Changelist" comment="">
+    <list default="true" id="11750927-ed84-48de-b946-44926a4691ec" name="Default Changelist" comment="add calculate your impact block">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -41,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596186802298</updated>
-      <workItem from="1596186803513" duration="266000" />
+      <workItem from="1596186803513" duration="8515000" />
     </task>
     <servers />
   </component>
@@ -58,5 +59,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add calculate your impact block" />
+    <option name="LAST_COMMIT_MESSAGE" value="add calculate your impact block" />
   </component>
 </project>

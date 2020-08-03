@@ -244,11 +244,6 @@ body {
     background-color: #FFECEC !important;
 }
 
-img {
-    width: 2em;
-    height: 2em;
-}
-
 p {
     text-align: justify;
 }
@@ -267,20 +262,18 @@ h3 {
     background-color: beige;
 }
 
-.left {
-    padding-left: 2em
-}
-
-.right {
-    padding-right: 2em;
-}
-
-.white {
-    background-color: white;
-}
-
 .image {
+    width: 2em;
+    height: 2em;
+    align-items: center;
+}
 
+.schema img {
+    width: 12rem;
+}
+
+.btn-lg {
+    font-size: 1.1rem !important;
 }
 
 #main {
@@ -290,8 +283,12 @@ h3 {
 }
 
 #form-container {
-    padding: 1em 2em 1em 2em;
+    padding: 1em 5em 1em 5em;
     text-align: center;
+}
+
+#form-container p {
+    padding: 1em 1em 0 1em;
 }
 
 #prez-container {
@@ -315,11 +312,36 @@ h3 {
 
 #questions-container {
     background-color: #ECF6FF;
-    padding: 2em;
+    padding: 2em 2em 0.5em 2em;
     border-radius: 20px;
+}
+
+#calcul-impact {
+    background-color: #FFFDEC;
+    padding: 2em 2em 0.5em 2em;
+    border-radius: 20px;
+    text-align: left;
 }
 
 #personal-info {
     text-align: left;
     padding: 0 5em 0 5em;
+}
+
+@media (max-height: 1000px) {
+    #form-container {
+        padding: 1em 1.5em 1em 1.5em;
+    }
+
+    #form-container p {
+        padding: 1em 0.5em 0 0.5em;
+    }
+
+    #personal-info {
+        padding: 0 2em 0 2em;
+    }
+
+    #calcul-impact {
+        padding: 1em 1em 0.5em 1em;
+    }
 }
